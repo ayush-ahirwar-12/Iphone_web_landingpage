@@ -1,0 +1,197 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#nav{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(28, 28, 28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: fixed;
+    z-index: 20000;
+    position: fixed;
+}
+#nav a:hover{
+    font-weight: bold;
+}
+#nav a{
+
+color: white;
+text-decoration: none;
+font-size: 12px;
+}
+#nav i{
+    color: white;
+    font-size: 16px;
+}
+#first{
+    width: 100%;
+    height: 80%;
+    background-color: black;
+}
+#first h1{
+    position: absolute;
+    top: 15%;
+    color: white;
+    font-size: 55px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 600;
+
+}
+#first p{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#button2{
+    width: 130px;
+    height: 45px;
+    background-color: #0177ec;
+    color: white;
+    border-radius: 50px;
+    position: absolute;
+    top: 28%;
+    left: 42%;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid black;
+    
+    
+}
+#button1{
+    width: 70px;
+    height: 45px;
+    background-color: transparent;
+    position: absolute;
+    top: 28%;
+    left: 52%;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid  #0177ec ;
+    color: #0177ec;
+    z-index: 10;
+    border-radius: 50px;
+    
+}
+#button1:hover{
+    color: white;
+    background-color: #0177ec;
+}
+#first h2{
+    position: absolute;
+    top: 55%;
+    color: whitesmoke;
+    font-size: 300px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 0 0 0px #fff,
+        0 0 0px #fff,
+        0 0 0px #fff,
+        0 0 20px #fff,
+        0 0 4px #fff,
+        0 0 120px #fff;
+        font-weight:600;
+        
+
+}
+#first img{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 55%;
+    transition:all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+#first img:hover{
+    width: 60%;
+}
+
+/*second div*/
+
+#second{
+    width: 100%;
+    height:80%;
+    background: linear-gradient(to top, #99ccff 11%, #000066 79%);
+    margin-top: 20px;
+    position: relative;
+
+}
+#heading{
+    font-size: 55px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%,-50%);
+    font-weight: 600;
+}
+#heading1{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+#button3{
+    width: 130px;
+    height: 45px;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: 16px;
+    position: absolute;
+    top: 33%;
+    left: 42%;
+    font-weight: bold;
+
+
+}
+#button4{
+    width: 70px;
+    height: 45px;
+    background-color: transparent;
+    position: absolute;
+    top: 33%;
+    left: 52%;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid white ;
+    color: white;
+    border-radius: 50px;
+    z-index: 30;
+    
+}
+#button4:hover{
+    color: black;
+    background-color: white;
+}
+#second img{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 90%;
+    
+}
+
+
+
+    
